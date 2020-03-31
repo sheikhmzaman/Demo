@@ -10,8 +10,8 @@ def computepay(hour,rate):
         return (reghr*regrt)+(overtmhr*overtmrate)
     return (pay)
     
-hrs = input("Enter Hours:")
-rt = input("Hourly rate:")
+hrs = input("Enter Hours worked:")
+rt = input("Enter hourly rate:")
 try:
     hour = float(hrs)
 except:
